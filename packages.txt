@@ -3,7 +3,7 @@ libsdl2-image-2.0-0
 libsdl2-mixer-2.0-0
 libsdl2-ttf-2.0-0
 libfreetype6
-libjpeg8
+libjpeg-dev
 libpng16-16
 zlib1g
 curl
