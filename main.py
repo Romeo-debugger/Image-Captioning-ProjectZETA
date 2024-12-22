@@ -12,7 +12,7 @@ from translate import Translator as AltTranslator
 
 # Define constants
 API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-large"
-API_KEY = "USE YOUR OWN API"
+API_KEY = "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" #guys do not send requests removing this api. it has been created just for this project.
 IMAGE_FILE = "file.jpg"
 CAPTION = "No caption yet"
 time_counter = 0
