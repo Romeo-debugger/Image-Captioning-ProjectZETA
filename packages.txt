@@ -9,4 +9,3 @@ zlib1g
 curl
 wget
 pkg-config
-ffmpeg
