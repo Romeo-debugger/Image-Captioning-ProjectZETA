@@ -1,14 +1,25 @@
-build-essential
-pkg-config
-python3-dev
-python3-pip
-libsdl2-dev
-libsdl2-image-dev
-libsdl2-mixer-dev
-libsdl2-ttf-dev
-libfreetype6-dev
-libjpeg-dev
-libpng-dev
-zlib1g-dev
+# Essential build tools (omit if you want to avoid compiling anything)
+# build-essential
+# pkg-config
+
+# Python development headers (optional, if you need to install from source)
+# python3-dev
+# python3-pip
+
+# Install precompiled versions of the libraries
+libsdl2-2.0-0
+libsdl2-image-2.0-0
+libsdl2-mixer-2.0-0
+libsdl2-ttf-2.0-0
+
+# Precompiled Freetype library for font rendering
+libfreetype6
+
+# Media libraries for JPEG, PNG, and Zlib (optional)
+libjpeg8
+libpng16-16
+zlib1g
+
+# Utilities like curl and wget (for fetching data, etc.)
 curl
 wget
