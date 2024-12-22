@@ -8,4 +8,3 @@ libpng16-16
 zlib1g
 curl
 wget
-pkg-config
